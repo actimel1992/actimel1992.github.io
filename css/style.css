@@ -1,0 +1,872 @@
+/* line 1, ../../trener/prect3/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../../trener/prect3/src/sass/_general.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 4, ../../trener/prect3/src/sass/_general.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 8, ../../trener/prect3/src/sass/_general.sass */
+nav {
+  background: #212121;
+  height: 50px;
+}
+
+/* line 12, ../../trener/prect3/src/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 19, ../../trener/prect3/src/sass/_general.sass */
+.menu__link {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* line 24, ../../trener/prect3/src/sass/_general.sass */
+.menu__item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 27, ../../trener/prect3/src/sass/_general.sass */
+.menu__item:last-child {
+  border-right: none;
+}
+
+/* line 30, ../../trener/prect3/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 33, ../../trener/prect3/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 84px;
+}
+
+/* line 39, ../../trener/prect3/src/sass/_general.sass */
+.subheader__logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 44, ../../trener/prect3/src/sass/_general.sass */
+.subheader__official {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+/* line 51, ../../trener/prect3/src/sass/_general.sass */
+.subheader__call {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 58, ../../trener/prect3/src/sass/_general.sass */
+.subheader__phone {
+  display: block;
+  margin-top: 8px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 68, ../../trener/prect3/src/sass/_general.sass */
+.subheader__btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* line 2, ../../trener/prect3/src/sass/_mixins.sass */
+.subheader__btn:hover {
+  background-image: none;
+  background-color: main-color;
+}
+
+/* line 83, ../../trener/prect3/src/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url(../img/uber_bg.png) center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 88, ../../trener/prect3/src/sass/_general.sass */
+.promo__header {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 97, ../../trener/prect3/src/sass/_general.sass */
+.promo__subheader {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 107, ../../trener/prect3/src/sass/_general.sass */
+.promo__descr {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 115, ../../trener/prect3/src/sass/_general.sass */
+.promo__btn {
+  display: block;
+  margin: 118px auto 0;
+  border: none;
+  border-radius: 4px;
+  width: 211px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+/* line 2, ../../trener/prect3/src/sass/_mixins.sass */
+.promo__btn:hover {
+  background-image: none;
+  background-color: main-color;
+}
+
+/* line 132, ../../trener/prect3/src/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 135, ../../trener/prect3/src/sass/_general.sass */
+.label {
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 147, ../../trener/prect3/src/sass/_general.sass */
+.label_1 {
+  position: relative;
+  background-color: #ffffff;
+  color: #000000;
+  z-index: 2;
+}
+
+/* line 154, ../../trener/prect3/src/sass/_general.sass */
+.subtitle {
+  margin-top: 19px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #222222;
+  text-align: center;
+}
+
+/* line 160, ../../trener/prect3/src/sass/_general.sass */
+.subtitle_st1 {
+  position: relative;
+  color: #ffff;
+  margin-top: 5px;
+  z-index: 3;
+}
+
+/* line 166, ../../trener/prect3/src/sass/_general.sass */
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 174, ../../trener/prect3/src/sass/_general.sass */
+.title_t1 {
+  position: relative;
+  color: #ffff;
+  z-index: 3;
+}
+
+/* line 180, ../../trener/prect3/src/sass/_general.sass */
+.second__section .reasons__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 186, ../../trener/prect3/src/sass/_general.sass */
+.second__section .second__section-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background: #1EACC7;
+  border-radius: 100%;
+}
+
+/* line 196, ../../trener/prect3/src/sass/_general.sass */
+.second__section .second__section-text {
+  width: 343px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #202020;
+}
+
+/* line 203, ../../trener/prect3/src/sass/_general.sass */
+.second__section span {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1EACC7;
+}
+
+/* line 209, ../../trener/prect3/src/sass/_general.sass */
+.second__section .second__section-img-logo {
+  margin: auto;
+}
+
+/* line 212, ../../trener/prect3/src/sass/_general.sass */
+.mobile {
+  min-height: 865px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 216, ../../trener/prect3/src/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 218, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 225, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_1 {
+  background: url("../img/cart/1.png") center center/cover no-repeat;
+}
+
+/* line 227, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_2 {
+  background: url("../img/cart/2.png") center center/cover no-repeat;
+}
+
+/* line 229, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_3 {
+  background: url("../img/cart/3.png") center center/cover no-repeat;
+}
+
+/* line 231, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_4 {
+  background: url("../img/cart/4.png") center center/cover no-repeat;
+}
+
+/* line 233, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_5 {
+  background: url("../img/cart/5.png") center center/cover no-repeat;
+}
+
+/* line 235, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_6 {
+  background: url("../img/cart/6.png") center center/cover no-repeat;
+}
+
+/* line 237, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* line 244, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 29px;
+  height: 29px;
+  background: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 258, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 265, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_plus:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 276, ../../trener/prect3/src/sass/_general.sass */
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* line 279, ../../trener/prect3/src/sass/_general.sass */
+.car {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+  background: url("../img/bg_car.png") center center/cover no-repeat;
+}
+
+/* line 284, ../../trener/prect3/src/sass/_general.sass */
+.car_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+  text-align: center;
+}
+
+/* line 290, ../../trener/prect3/src/sass/_general.sass */
+.car_black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 299, ../../trener/prect3/src/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 301, ../../trener/prect3/src/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 303, ../../trener/prect3/src/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 305, ../../trener/prect3/src/sass/_general.sass */
+.require_title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #1CA8C3;
+}
+
+/* line 310, ../../trener/prect3/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 314, ../../trener/prect3/src/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+/* line 321, ../../trener/prect3/src/sass/_general.sass */
+.require_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/check_blue_1.svg") center center/cover no-repeat;
+}
+
+/* line 329, ../../trener/prect3/src/sass/_general.sass */
+.require_descr {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #1ca8c3;
+}
+
+/* line 336, ../../trener/prect3/src/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 340, ../../trener/prect3/src/sass/_general.sass */
+.require .warning .require_list li:before {
+  background: url("../icons/check_red_1.svg") center center/cover no-repeat;
+}
+
+/* line 343, ../../trener/prect3/src/sass/_general.sass */
+.world {
+  background: url("../img/world_bg.png") center center/cover no-repeat;
+  min-height: 716px;
+  padding: 50px 0 50px 0;
+  position: relative;
+}
+
+/* line 349, ../../trener/prect3/src/sass/_general.sass */
+.world_map_link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 49px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #1fbad6;
+}
+
+/* line 360, ../../trener/prect3/src/sass/_general.sass */
+.world_map_link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 364, ../../trener/prect3/src/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 367, ../../trener/prect3/src/sass/_general.sass */
+footer a:hover {
+  text-decoration: none;
+}
+
+/* line 371, ../../trener/prect3/src/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 376, ../../trener/prect3/src/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 381, ../../trener/prect3/src/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 383, ../../trener/prect3/src/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 386, ../../trener/prect3/src/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 390, ../../trener/prect3/src/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 399, ../../trener/prect3/src/sass/_general.sass */
+.footer_social_item span {
+  color: #fff;
+}
+
+/* line 401, ../../trener/prect3/src/sass/_general.sass */
+.footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 404, ../../trener/prect3/src/sass/_general.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 408, ../../trener/prect3/src/sass/_general.sass */
+.footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 413, ../../trener/prect3/src/sass/_general.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 417, ../../trener/prect3/src/sass/_general.sass */
+.footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 422, ../../trener/prect3/src/sass/_general.sass */
+.footer_links_lang {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 433, ../../trener/prect3/src/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../trener/prect3/src/sass/_media.sass */
+  .menu__item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../trener/prect3/src/sass/_media.sass */
+  .menu__link {
+    font-size: 13px;
+  }
+  /* line 8, ../../trener/prect3/src/sass/_media.sass */
+  .promo__header {
+    font-size: 50px;
+  }
+  /* line 11, ../../trener/prect3/src/sass/_media.sass */
+  .reasons__block {
+    align-items: flex-start;
+  }
+  /* line 13, ../../trener/prect3/src/sass/_media.sass */
+  .reasons__section-text-span {
+    width: 300px;
+  }
+  /* line 16, ../../trener/prect3/src/sass/_media.sass */
+  .mobile_item {
+    width: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 20, ../../trener/prect3/src/sass/_media.sass */
+  .menu__item {
+    padding-right: 8px;
+  }
+  /* line 22, ../../trener/prect3/src/sass/_media.sass */
+  .menu__link {
+    font-size: 9px;
+  }
+  /* line 26, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__logo img {
+    width: 100%;
+  }
+  /* line 28, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__official {
+    font-size: 11px;
+  }
+  /* line 30, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__phone {
+    font-size: 18px;
+  }
+  /* line 32, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 37, ../../trener/prect3/src/sass/_media.sass */
+  .promo__header {
+    font-size: 40px;
+  }
+  /* line 39, ../../trener/prect3/src/sass/_media.sass */
+  .promo__subheader {
+    font-size: 30px;
+  }
+  /* line 42, ../../trener/prect3/src/sass/_media.sass */
+  .reasons__block {
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 46, ../../trener/prect3/src/sass/_media.sass */
+  .reasons__section-text {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 51, ../../trener/prect3/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 63, ../../trener/prect3/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 65, ../../trener/prect3/src/sass/_media.sass */
+  .menu__item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  /* line 69, ../../trener/prect3/src/sass/_media.sass */
+  .menu__link {
+    font-size: 20px;
+  }
+  /* line 71, ../../trener/prect3/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 79, ../../trener/prect3/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 87, ../../trener/prect3/src/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 89, ../../trener/prect3/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 91, ../../trener/prect3/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 93, ../../trener/prect3/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 96, ../../trener/prect3/src/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 98, ../../trener/prect3/src/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 102, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__phone {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 110, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 118, ../../trener/prect3/src/sass/_media.sass */
+  .promo__header {
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 122, ../../trener/prect3/src/sass/_media.sass */
+  .subheader {
+    height: 60px;
+  }
+  /* line 124, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__official {
+    display: none;
+  }
+  /* line 126, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__logo {
+    margin-top: 16px;
+  }
+  /* line 129, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__phone {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 134, ../../trener/prect3/src/sass/_media.sass */
+  .subheader__btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 139, ../../trener/prect3/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 142, ../../trener/prect3/src/sass/_media.sass */
+  .promo__descr {
+    display: none;
+  }
+  /* line 144, ../../trener/prect3/src/sass/_media.sass */
+  .promo__header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 148, ../../trener/prect3/src/sass/_media.sass */
+  .promo__subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 153, ../../trener/prect3/src/sass/_media.sass */
+  .promo__btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  /* line 157, ../../trener/prect3/src/sass/_media.sass */
+  .menu {
+    width: 31%;
+  }
+  /* line 159, ../../trener/prect3/src/sass/_media.sass */
+  .menu__item {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
